@@ -7,7 +7,6 @@ import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import Portfolio from './components/portfolio/Portfolio';
 import Projects from './components/projects/Projects';
-import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
     <Experience></Experience>
     <Projects></Projects>
     <Portfolio></Portfolio>
-    <Testimonials></Testimonials>
     <Contact></Contact>
     <Footer></Footer>
     </>
