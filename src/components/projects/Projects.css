@@ -31,3 +31,20 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+/* ------- Media Queries (Medium devices) -------- */
+@media screen and (max-width: 1024px) {
+    .projects__container {
+        grid-template-columns: 1fr ;
+        gap: 1.2rem;
+    }
+  }
+
+/* ------- Media Queries (Small devices) -------- */
+@media screen and (max-width: 600px) {
+    .projects__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+  }
