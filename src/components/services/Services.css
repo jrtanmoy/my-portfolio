@@ -15,6 +15,7 @@
     border: 1px solid transparent;
     border-radius: 2rem;
     padding: 1.2rem;
+    transition: var(--transition);
 }
 
 .services_card:hover {
