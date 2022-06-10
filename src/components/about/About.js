@@ -15,7 +15,7 @@ const About = () => {
                 </div>
                 <div className='about__content'>
                     <p>
-                        Hi there, I am Joy Roy. I am a Junior MERN Stack Developer and having a vast interest to work with technology and eagerness to know more made my way of learning smoother, hopefully it will continuously improve. I always want to learn by doing and get enough experience to be a senior Web Developer.
+                        Hi, I am Joy Roy. I am a Junior MERN Stack Developer. I am working with React, Node.js and MongoDB. I also have experience in developing static website using HTML, CSS and JavaScript. Besides having a vast interest to work with technology and eagerness to know more made my way of learning smoother. Hopefully it will continuously improve. My goal is to be a World-Class Professional Web Developer.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>

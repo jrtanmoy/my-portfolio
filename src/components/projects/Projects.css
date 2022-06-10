@@ -51,7 +51,7 @@
 }
 
 .projects__details-icon {
-    width: 1.2rem;
+    max-width: 1.2rem;
     margin-top: 6px;
     color: var(--color-primary);
 }
@@ -82,6 +82,11 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 0.8rem;
+    }
+
+    .projects__details-icon {
+        max-width: 0.6rem;
+        
     }
     
   }
