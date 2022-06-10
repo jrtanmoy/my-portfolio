@@ -2,7 +2,9 @@ import './Contact.css';
 import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine} from 'react-icons/ri';
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com';
+import swal from 'sweetalert';
+
 
 const Contact = () => {
     const form = useRef();
@@ -12,6 +14,7 @@ const Contact = () => {
     
         emailjs.sendForm('service_gzhqacw', 'template_2wh98hf', form.current, '_TA52A-ysbO-rX57D')
           
+        swal("Good job!", "Your Message has been sent!", "success");
         e.target.reset()
       };
 

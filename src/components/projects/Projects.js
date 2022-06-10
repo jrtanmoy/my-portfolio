@@ -158,7 +158,7 @@ const Projects = () => {
                             <article className='projects__details'>
                                 <AiFillCheckCircle className='projects__details-icon' />
                                 <div>
-                                    <small className='text-light'>ReactJs, React - [ router dom, firebase hooks, hook form, query, Toastify ], Tailwind CSS, Daisyui, Firebase, Stripe, Express, MongoDB.
+                                    <small className='text-light'>ReactJs, React - [router dom, firebase hooks, hook form, query, Toastify], Tailwind CSS, Daisyui, Firebase, Stripe, Express, MongoDB.
                                     </small>
                                 </div>
                             </article>
