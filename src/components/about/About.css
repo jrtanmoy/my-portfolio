@@ -15,12 +15,12 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(-10deg);
-    transition: var(--transition);
+    transition-duration: 4s;
+    transition-property: transform;
 }
 
 .about__me-image:hover {
-    transform: rotate(0);
+    transform: rotate(360deg);
 }
 
 .about__content{

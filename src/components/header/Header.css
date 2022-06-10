@@ -40,6 +40,13 @@ header {
     header {
         height: 68vh;
     }
+    .me {
+        /* background: linear-gradient(var(--color-primary), transparent); */
+        width: 22rem;
+        height: 22rem;
+        margin-top: 4rem;
+    }
+    
   }
 
 /* ------- Media Queries (Small devices) -------- */
@@ -52,11 +59,17 @@ header {
         position: relative;
     }
 
-    .header {
+    header {
         height: 100vh;
     }
     
     .header__socials, .scroll__down {
         display: none;
+    }
+
+    .me {
+        /* background: linear-gradient(var(--color-primary), transparent); */
+        width: 20rem;
+        height: 20rem;
     }
   }
