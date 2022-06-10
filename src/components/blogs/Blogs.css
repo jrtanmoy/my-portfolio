@@ -1,0 +1,21 @@
+.blog__container {
+    margin-top: 6rem;
+}
+
+.blog__container-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: var(--color-bg-variant);
+    padding: 2.4rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.blog__container-item:hover {
+    background: transparent;
+    border-left: var(--color-primary-varient);
+    cursor: pointer;
+}

@@ -1,11 +1,11 @@
 import './App.css';
 import About from './components/about/About';
+import Blogs from './components/blogs/Blogs';
 import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
-import Portfolio from './components/portfolio/Portfolio';
 import Projects from './components/projects/Projects';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     <About></About>
     <Experience></Experience>
     <Projects></Projects>
-    <Portfolio></Portfolio>
+    <Blogs></Blogs>
     <Contact></Contact>
     <Footer></Footer>
     </>
