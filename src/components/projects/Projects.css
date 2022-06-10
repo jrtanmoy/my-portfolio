@@ -25,19 +25,35 @@
 }
 
 .projects__item-image {
+    display: flex;
+    align-items: center;
     width: 100%;
-    border-radius: 1.2rem;
     overflow: hidden;
+}
+.projects__item-image img{
+    border-radius: 1.2rem;
 }
 
 .projects__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 0.2rem 0 0.1rem;
 }
 
 .projects__item-btn {
+    margin-top: 0.8rem;
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.projects__details{
+    display: flex;
+    gap: 1rem;
+}
+
+.projects__details-icon {
+    width: 1.2rem;
+    margin-top: 6px;
+    color: var(--color-primary);
 }
 
 /* ------- Media Queries (Medium devices) -------- */

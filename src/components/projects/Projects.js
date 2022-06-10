@@ -16,7 +16,7 @@ import screencapture31 from '../../assets/screencapture-3-1.png';
 import screencapture32 from '../../assets/screencapture-3-2.png';
 import screencapture33 from '../../assets/screencapture-3-3.png';
 import screencapture34 from '../../assets/screencapture-3-4.png';
-import {AiFillCheckCircle} from 'react-icons/ai'
+import { AiFillCheckCircle } from 'react-icons/ai'
 
 
 
@@ -79,7 +79,89 @@ const Projects = () => {
                     <div className='projects__item-features'>
                         <h3>Tools manufacturer's website</h3>
                         <div>
-                            <h3>Overview</h3>
+                            <h4>Overview :</h4>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>It’s a tools manufacturer website.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'> On this website you can order tools.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Implemented Stripe payment method so that user can pay.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>This website has an admin board to control.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Implemented Firebase Login Authentication.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Users can register, log in, sign out, and google sign in themselves.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>There is a private dashboard route. After logging in, the user can see this.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>On the dashboard, there are three nested routes for normal users.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>On the dashboard, there are five nested routes for admin.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Personal favicon used.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>It's also include blog & myprofile etc.... you can take a look....
+                                    </small>
+                                </div>
+                            </article>
+
+                        </div>
+                        <div>
+                            <h4>Technology Used :</h4>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>ReactJs, React - [ router dom, firebase hooks, hook form, query, Toastify ], Tailwind CSS, Daisyui, Firebase, Stripe, Express, MongoDB.
+                                    </small>
+                                </div>
+                            </article>
                         </div>
                         <div className="projects__item-btn">
                             <a href="https://github.com/jrtanmoy/-manufacturer-website-client-side" className='btn' target='_blank'>Client</a>
@@ -89,7 +171,7 @@ const Projects = () => {
                     </div>
                 </article>
                 <article className='projects__item'>
-                <div className='projects__item-image'>
+                    <div className='projects__item-image'>
                         <Swiper
                             modules={[Navigation, Pagination, A11y]}
                             spaceBetween={40}
@@ -123,7 +205,76 @@ const Projects = () => {
                     <div className='projects__item-features'>
                         <h3>Warehouse management system website</h3>
                         <div>
-                            <h3>Overview</h3>
+                            <h4>Overview :</h4>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>This website is about a Warehouse inventory management system.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'> On this website, authorized users can add, restock, deliver and delete products.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Users can see their items (jwt is used).</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Implemented Firebase Login Authentication.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Users can register, log in, sign out, and google sign in themselves.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Authorized users can access the private routes of Manage Inventory, Add Product & My Products.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>On the Add Product route, users can add product.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Personal favicon used.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>It's also include blog & about .... you can take a look....
+                                    </small>
+                                </div>
+                            </article>
+
+                        </div>
+                        <div>
+                            <h4>Technology Used :</h4>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>ReactJs, React-[router dom, firebase hooks, hook form, Toastify, Bootstrap], Axios, CSS, Bootstrap, Firebase, Express.js, MongoDB.
+                                    </small>
+                                </div>
+                            </article>
                         </div>
                         <div className="projects__item-btn">
                             <a href="https://github.com/jrtanmoy/warehouse-management-clint-site" className='btn' target='_blank'>Client</a>
@@ -133,14 +284,14 @@ const Projects = () => {
                     </div>
                 </article>
                 <article className='projects__item'>
-                <div className='projects__item-image'>
+                    <div className='projects__item-image'>
                         <Swiper
                             modules={[Navigation, Pagination, A11y]}
                             spaceBetween={40}
                             slidesPerView={1}
                             navigation
                             pagination={{ clickable: true }}
-                           
+
 
 
                         >
@@ -162,7 +313,64 @@ const Projects = () => {
                     <div className='projects__item-features'>
                         <h3>Independent service provider website</h3>
                         <div>
-                            <h3>Overview</h3>
+                            <h4>Overview :</h4>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>An independent service provider website.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>In the service section of this website, one can see the whole services.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Users can book service for checkout.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Implemented Firebase Login Authentication.</small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Users can register, log in, sign out, and google sign in themselves.</small>
+                                </div>
+                            </article>
+                            
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>Personal favicon used.
+                                    </small>
+                                </div>
+                            </article>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>It's also include blogs & about me, you can take a look....
+                                    </small>
+                                </div>
+                            </article>
+
+                        </div>
+                        <div>
+                            <h4>Technology Used :</h4>
+                            <article className='projects__details'>
+                                <AiFillCheckCircle className='projects__details-icon' />
+                                <div>
+                                    <small className='text-light'>ReactJs, React-[router dom, firebase hooks, Toastify, Bootstrap], Vanilla CSS, Bootstrap, Firebase.
+                                    </small>
+                                </div>
+                            </article>
                         </div>
                         <div className="projects__item-btn">
                             <a href="https://github.com/jrtanmoy/independent-service-provider-website" className='btn' target='_blank'>Client-side</a>
