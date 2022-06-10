@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import Projects from './components/projects/Projects';
+import Services from './components/services/Services';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Header></Header>
     <Nav></Nav>
     <About></About>
+    <Services></Services>
     <Experience></Experience>
     <Projects></Projects>
     <Blogs></Blogs>
