@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Nav.css'
+import './Nav.css';
 
 const Nav = () => {
     const [activeNav, setActiveNav] = useState('#')
