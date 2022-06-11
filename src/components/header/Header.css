@@ -54,22 +54,21 @@ header {
     .header__container {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1rem;
         height: 100%;
         position: relative;
     }
 
     header {
         height: 100vh;
+        padding-top: 0.4rem;
     }
     
-    .header__socials, .scroll__down {
-        display: none;
-    }
 
     .me {
         /* background: linear-gradient(var(--color-primary), transparent); */
         width: 20rem;
         height: 20rem;
+        padding: 0.5rem;
     }
   }
